@@ -5,6 +5,6 @@ module.exports = async (req, res) => {
     alive: true,
     made_by: "https://github.com/Coderaryan-offical",
     version: package.version,
-    docs: `${process.env.APP_URL || "https://pixer-doc.vercel.app/vercel"}/docs`,
+    docs: `${process.env.APP_URL || "https://jiosaavn-api.vercel.app"}/docs`,
   });
 };
